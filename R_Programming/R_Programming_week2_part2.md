@@ -28,12 +28,12 @@
 	读取R的空间：load
 	读取单个二进制法写的R object： serialize
 它们对应的把数据写进file的语法是：
-	·write.table
-	·write.Lines
-	·dump
-	·dput
-	·save
-	·serialize 
+	write.table
+	write.Lines
+	dump
+	dput
+	save
+	serialize 
 
 ## to read larger datasets
 	简单计算一下内存占用，如果文件大到大过了你的电脑RAM，那就不用读了。
