@@ -1,4 +1,4 @@
-## memo 
+## memo  
 
 	1. other than swirl there is a “flow control lesson”
 	2. read the paper ”the split-apply-combine strategy for data analysis” written by Hadley Wickham.

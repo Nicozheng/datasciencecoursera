@@ -1,4 +1,4 @@
-## SWIRL
+## SWIRL 
 
 	调用swirl包，需要用library(swirl) 然后打swirl() 
 
