@@ -1,0 +1,22 @@
+# machine learning week 4 
+# Non-linear Hypotheses
+
+## when there are too many features when we try to caculate the problem, linear model will not be a very good way to do so.
+假设我们使用的trainning set x有n个，那么我们得到的数据集feature的个数是n^2/2个
+
+## background information
+	neural network的工作原则是试图模拟大脑的工作，在上世纪80～90年代应用广泛，后面有过一段时间的消沉但是最近又东山再起了，因为现在的电脑进化到能够处理真正的neural network庞大的程序。
+
+## model representations
+	公式见图。
+
+	neural network的向量化表达
+	见图。
+
+## 小案例
+	用neural network表达
+		and，权重theta为[-30,20, 20]
+		(not x1) and (not x2), theta[10,-20,-20]
+		or, theta[-10,20,20]
+		xnor(x1和x2值相同) 要用到两层第一层为一个and和一个(not) and (not)，第二层为一个or
+		
